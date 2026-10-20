@@ -1,0 +1,43 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+
+# --- Virtual environment ---
+venv/
+.env/
+
+# --- Logs and outputs ---
+*.log
+outputs/
+checkpoints/
+uploads/
+
+# --- Databases ---
+*.db
+
+# --- Notebooks checkpoints ---
+.ipynb_checkpoints/
+
+# --- IDE/editor settings ---
+.vscode/
+.idea/
+*.iml
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Project-specific ---
+# Ignore datasets
+data/
+
+# Ignore only large model artifacts (keep code)
+models/*.h5
+models/*.pt
+models/*.pkl
+models/*.ckpt
+models/*.bin
